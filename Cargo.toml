@@ -1,0 +1,17 @@
+[package]
+name = "win_events"
+version = "0.1.0"
+authors = ["Ashok"]
+edition = "2018"
+
+[workspace]
+members = [
+    "examples/*",
+]
+
+[dependencies]
+bindings = { path = "bindings" }
+quick-xml = { version = "0.22.0",features = [ "serialize" ] }
+serde = { version = "1.0", features = [ "derive" ] }
+serde_json = { version = "1.0" }
+chrono = { version = "0.4.19", features = ["serde"] }
