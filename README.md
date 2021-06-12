@@ -3,8 +3,8 @@
 `win-events` is a rust library to pull windows log events. Following output format is supported
 
   * xml string
-  * [Raw](src\event.rs)
-  * [Parsed](src\event.rs)
+  * [Raw](src/event.rs)
+  * [Parsed](src/event.rs)
   * Json string
 
 
