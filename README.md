@@ -11,6 +11,15 @@
 [examples](examples)
 
 
+## Usage
+
+Add this to your `Cargo.toml`:
+
+```
+[dependencies]
+win-events = { git = "https://github.com/asiyani/win-events", branch = "v0.1.0" }
+```
+
 ## filter package
 
 filter package provides functionality to build filter xml query string. This query is used in reader subscription.
